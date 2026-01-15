@@ -90,6 +90,6 @@ This analysis was designed to answer key business questions:
 
 ## 👤 Author
 
-**Naledi Motau**  
+**Naledi Motaung**  
 Business & Data Analyst  
 South Africa 🇿🇦
