@@ -74,18 +74,22 @@ This project answers key business questions:
 South-African-Retail-Sales-Analysis-2008-2024/
 │
 ├── data/
-│ └── retail_sales_sample.csv
+│   ├── retail_sales_sample.csv
+│   └── README.md
 │
 ├── dashboard/
-│ └── SouthAfricanRetailSales.pbix
+│   └── SouthAfricanRetailSales.pbix
 │
 ├── images/
-│ └── dashboard_preview.png
+│   ├── dashboard_overview.png
+│   ├── sales_by_category.png
+│   └── yoy_growth.png
 │
 ├── model/
-│ └── dax_measures.md
+│   ├── dimdate_definition.md
+│   └── dax_measures.md
 │
 ├── docs/
-│ └── insights_summary.md
+│   └── insights_summary.md
 │
 └── README.md
