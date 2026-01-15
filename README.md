@@ -1,95 +1,95 @@
 # 🇿🇦 South African Retail Sales Analytics Dashboard (2008–2024)
 
-An end-to-end **business & data analytics project** analysing South Africa’s national retail trade sales from 2008 to 2024 using **Power BI**.
+An end-to-end **data analytics and business analysis project** examining South Africa’s national retail trade sales from 2008 to 2024 using **Power BI**.
 
-This project demonstrates **data cleaning, data modelling, DAX time intelligence, and professional dashboard design** aligned with real-world business analysis standards.
+This project focuses on **data cleaning, time-series analysis, inflation-adjusted comparisons, and professional dashboard design** aligned with real-world business decision-making.
 
 ---
 
 ## 📊 Project Overview
 
-Retail sales data is influenced by seasonality, inflation, and economic shocks such as **COVID-19 lockdowns** and **load shedding**.
+Retail performance is affected by seasonality, inflation, and major economic disruptions such as **COVID-19 lockdowns** and **load shedding**.
 
-This project answers key business questions:
-- How have retail sales changed over time?
+This analysis was designed to answer key business questions:
+- How have retail sales evolved over time?
 - Which retail categories contribute the most to total sales?
-- How does inflation impact retail sales (Current vs Constant prices)?
-- What are the Year-on-Year (YoY) and long-term growth trends?
-- Are there clear seasonal sales patterns?
+- What is the impact of inflation (Current vs Constant prices)?
+- How strong is Year-on-Year (YoY) growth?
+- Are there consistent seasonal patterns in retail activity?
 
 ---
 
-## 🎯 Dashboard Features
+## 🎯 Dashboard Highlights
 
 ### KPI Metrics
-- **Total Sales**
+- **Total Retail Sales**
 - **Year-on-Year Growth (%)**
 - **Annual Growth Rate (CAGR)**
 - **Rolling 12-Month Sales**
 
-### Visualisations
+### Visual Analysis
 - **Sales by Category**  
-  Horizontal bar chart with dynamic filters
+  Horizontal bar chart with dynamic filtering
 - **Seasonal Sales Distribution**  
-  Monthly box-and-whisker analysis
+  Monthly seasonality analysis
 - **Inflation Impact**  
-  Current vs Constant price comparison
+  Comparison of Current vs Constant prices
 - **Trend Analysis**  
-  Multi-line category trends with Rolling 12-Month smoothing
-- **Growth Analysis**  
-  YoY % change and long-term performance
-
-### Interactive Filters
-- Year (2008–2024)
-- Category
-- Price Type
-- Value Type
+  Multi-line category trends using Rolling 12-Month smoothing
+- **Growth Performance**  
+  YoY percentage change and long-term growth insights
 
 ---
 
-## 🧠 Analytics & Modelling
+## 🧠 Data & Analytics Approach
 
-- Data cleaning and transformation using **Power Query**
-- Star-schema modelling with a **Date dimension**
-- DAX time-intelligence measures:
-  - YoY Growth
+- Data imported from cleaned CSV files (2008–2024)
+- Data transformed and validated using **Power Query**
+- Date intelligence implemented using a **Date dimension**
+- Business-focused DAX measures including:
+  - Year-on-Year Growth
   - Rolling 12-Month Sales
   - CAGR (Annual Growth Rate)
-- Business-focused dashboard storytelling
+- Fully interactive dashboard with slicers for:
+  - Year
+  - Category
+  - Price Type
+  - Value Type
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
 - Power BI Desktop
 - DAX
 - Power Query
 - Excel / CSV
-- SQL (conceptual modelling)
+- SQL concepts (data modelling & analysis logic)
 
 ---
 
-## 📂 Repository Structure
+## 📈 Key Insights
 
-South-African-Retail-Sales-Analysis-2008-2024/
-│
-├── data/
-│   ├── retail_sales_sample.csv
-│   └── README.md
-│
-├── dashboard/
-│   └── SouthAfricanRetailSales.pbix
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── sales_by_category.png
-│   └── yoy_growth.png
-│
-├── model/
-│   ├── dimdate_definition.md
-│   └── dax_measures.md
-│
-├── docs/
-│   └── insights_summary.md
-│
-└── README.md
+- Retail sales show **long-term growth** despite economic shocks
+- Strong **seasonal peaks**, especially during year-end periods
+- Inflation significantly affects nominal vs real sales trends
+- COVID-19 lockdowns cause visible declines in 2020 data
+- Certain retail categories consistently outperform others
+
+---
+
+## ▶️ How to Use This Project
+
+1. Download or clone this repository
+2. Open **Power BI Desktop**
+3. Load the provided CSV dataset(s) if not already connected
+4. Refresh the data model
+5. Interact with filters to explore trends and insights
+
+---
+
+## 👤 Author
+
+**Naledi Motau**  
+Business & Data Analyst  
+South Africa 🇿🇦
