@@ -1,5 +1,5 @@
 # 🇿🇦 South African Retail Sales Analytics Dashboard (2008–2024)
-
+download Report👉 https://github.com/naledi901/South-African-Retail-Sales-Analysis/blob/main/Retail%20analysis.pdf 
 An end-to-end **data analytics and business analysis project** examining South Africa’s national retail trade sales from 2008 to 2024 using **Power BI**.
 
 This project focuses on **data cleaning, time-series analysis, inflation-adjusted comparisons, and professional dashboard design** aligned with real-world business decision-making.
